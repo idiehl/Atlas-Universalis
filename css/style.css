@@ -56,21 +56,18 @@ body {
 /* site name LVL1 (pagewrapper) */  
 .headwrapper {
   grid-area: head;
+  
+  margin-bottom: 20px;
 }  
 
-/* site name LVL2 (headwraper) */ 
-.sitenamebox {
-  margin-bottom: 20px;
-}
-
-.sitenamebox h1 {
+.headwrapper h1 {
   font-family: "Aldrich", sans-serif;
   font-size: 60px;
   text-align: center;
   color: #FF0032;
 }
 
-.sitenamebox p {
+.headwrapper p {
   font-family: "Aldrich", sans-serif;
   font-size: 24px;
   text-align: center;
@@ -167,16 +164,12 @@ body {
 /* svg decorative l/r containers LVL2 (section) */
 .navbarleft {
   grid-area: ldeco;
-  
-  box-sizing: border-box;
 
   animation: 10s infinite alternate pulse;  
 }
 
 .navbarright {
   grid-area: rdeco;
-  
-  box-sizing: border-box; 
 
   animation: 5s infinite alternate pulse;
 }
@@ -187,16 +180,16 @@ body {
       scale: 100%;
       opacity: 1;}
     25% {
-      rotate: 90deg;
-      scale: 150%;
+      rotate: 180deg;
+      scale: 50%;
       opacity: .75}
     50% {
-      rotate: 180deg;
-      scale: 200%;
+      rotate: 270deg;
+      scale: 100%;
       opacity: .5;}
     75% {
       rotate: 270deg;
-      scale: 175%;
+      scale: 75%;
       opacity: 1;}
     100% {
       rotate: -45deg;
